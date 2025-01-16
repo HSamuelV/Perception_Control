@@ -1,13 +1,13 @@
-# UGV Perception and Control Using LIDAR and Optimal Control Theory
+# UGV Perception and Control Using LIDAR and Model Predictive Control
 
-This repository contains MATLAB and Simulink files developed for implementing perception and control algorithms for unmanned ground vehicles (UGVs), focusing on differential-drive robots. The system uses LIDAR sensor data for mapping, obstacle detection, and navigation control based on **optimal control theory**.
+This repository contains MATLAB and Simulink files developed for implementing perception and control algorithms for unmanned ground vehicles (UGVs), focusing on differential-drive robots. The system uses LIDAR sensor data for mapping, obstacle detection, and navigation control based on Model Predictive Control.
 
 ## Overview
 
 The primary goals of this project are:
 - Develop a LIDAR-based perception pipeline for obstacle detection and representation.
 - Implement a control strategy for UGVs to follow predefined paths using Model Predictive Control (MPC) and other optimal control methods.
-- Simulate and validate the complete system in MATLAB and Simulink.
+- Simulate and validate the complete system in MATLAB/Simulink and Gazebo.
 
 ## Repository Structure
 
