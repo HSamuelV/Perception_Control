@@ -13,15 +13,15 @@ The primary goals of this project are:
 
 | Directory/File       | Description                                               |
 |----------------------|-----------------------------------------------------------|
-| `/Draw_MPC_point_stabilization.m/` | MATLAB script to plot 2D the position of the robot without using the ROS/Gazbeo interface. |
-| `/casadi_block.m/`   | MATLAB script for the MATLAB Function block in Simulink. |
-| `/casadi_script.m/`   | MATLAB script used as base for the `/casadi_block.m/` file. |
-| `/gera_casadi_function.m/`   | MATLAB script used to test the control in Gazebo without Simulink. |
-| `/shift.m/`   | MATLAB script used in the `/gera_casadi_function.m/` file. |
-| `/ros_lidar2d/` | MATLAB script used to analyse, filter the data from a 2D LIDAR and plot the obstacles as polytopes. |
-| `/ros_lidar3d/` | MATLAB script used to analyse, filter the data from a 3D LIDAR and plot the obstacles as polytopes. |
-| `/Controltest_gazebo_trajectory_23a.slx/`  | Simulink models for communicating with Gazebo through ROS. |
-| `/MPC_p2p.slx/` | Simulink base file for the communication with Gazebo. |
+| `Draw_MPC_point_stabilization.m` | MATLAB script to plot 2D the position of the robot without using the ROS/Gazbeo interface. |
+| `casadi_block.m`   | MATLAB script for the MATLAB Function block in Simulink. |
+| `casadi_script.m`   | MATLAB script used as base for the `casadi_block.m` file. |
+| `gera_casadi_function.m`   | MATLAB script used to test the control in Gazebo without Simulink. |
+| `shift.m`   | MATLAB script used in the `gera_casadi_function.m` file. |
+| `ros_lidar2d` | MATLAB script used to analyse, filter the data from a 2D LIDAR and plot the obstacles as polytopes. |
+| `ros_lidar3d` | MATLAB script used to analyse, filter the data from a 3D LIDAR and plot the obstacles as polytopes. |
+| `Controltest_gazebo_trajectory_23a.slx`  | Simulink models for communicating with Gazebo through ROS. |
+| `MPC_p2p.slx` | Simulink base file for the communication with Gazebo. |
 
 
 ## Dependencies
